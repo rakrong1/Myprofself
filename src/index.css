@@ -1,0 +1,61 @@
+:root {
+  --primary-color: rgba(101, 118, 255, 0.8);
+  --secondary-color: rgba(144, 101, 255, 0.8);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --light-text: #fff;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --text-color: #2d3748;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Glassmorphism effects */
+.glass-header {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+/* Add similar glass styles for other components */
+
+/* 3D effects */
+.pub-card {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.pub-card:hover {
+  transform: perspective(1000px) rotateX(5deg) translateY(-10px);
+}
+
+/* Add animations and other styles for remaining components */
