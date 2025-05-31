@@ -11,6 +11,16 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="hero-background"></div>
+
+      {/* Video background element */}
+      <div className="video-background">
+        <video autoPlay loop muted playsInline>
+          <source src="/videos/hero-video.mp4" type="video/mp4" />
+          {/* Add additional source formats if needed */}
+          Your browser does not support the video tag.
+        </video>
+        <div className="video-overlay"></div>
+      </div>
       
       <div className="container">
         <motion.div 
