@@ -29,7 +29,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "My preferred frontend library. I’ve built dynamic interfaces using hooks, context, and component-based architecture, with attention to performance and maintainability.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/react.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -42,7 +42,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "Strong command of JavaScript, both in the browser and on the server. Comfortable with ES6+ features and functional programming patterns.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/java.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -55,7 +55,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "Regularly use TypeScript to bring type safety and better tooling to JavaScript projects, especially in large-scale React or Node codebases.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/typescript.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -68,7 +68,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "Solid foundation in creating responsive and accessible UIs. I use modern layout techniques (Flexbox, Grid) and semantic HTML for clean structure.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/html.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -81,7 +81,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "My main runtime environment for backend development. I’ve used Node for building APIs, real-time features, and background jobs.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/node.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -94,7 +94,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         " Core part of my backend stack. I use Express to build fast, modular, and secure APIs, often with middleware for authentication, logging, and error handling.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/express.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -107,7 +107,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         " Built and consumed RESTful services across multiple projects. Skilled in structuring endpoints, handling authentication, and ensuring API security and performance.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/restapi.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -120,7 +120,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "Experienced in designing and consuming GraphQL APIs for cleaner, more efficient data fetching, especially in React applications.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/graphql.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -133,7 +133,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         "My go-to for relational data and complex queries. I’ve built normalized schemas, written efficient SQL, and handled migrations in production environments.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/postgresql.jpg",
       file: "/publications/sample1.pdf",
     },
     {
@@ -146,7 +146,7 @@ const Publications = ({ activeFilter, setActiveFilter }) => {
       abstract:
         " Used extensively for building flexible, document-based data models in modern applications. I’ve designed and optimized schemas to support performance and scalability.",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "/images/mongodb.jpg",
       file: "/publications/sample1.pdf",
     },
     // Add other publications similarly
