@@ -98,7 +98,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={["fas", "envelope"]} />
               <div>
                 <h4>Email</h4>
-                <p>akrong.rich@hotmail.com</p>
+                <p>richakrong@hotmail.com</p>
               </div>
             </div>
 
@@ -112,7 +112,7 @@ const Contact = () => {
 
             <div className="social-links">
               <motion.a
-                href="mailto:akrong.rich@hotmail.com"
+                href="mailto:richakrong@hotmail.com"
                 whileHover={{ y: -3 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
