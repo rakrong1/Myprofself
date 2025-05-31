@@ -32,11 +32,11 @@ const Contact = () => {
         "oqzQT3Yk0bgFrGy1h"
       )
       .then(
-        (result) => {
+        () => {
           alert("Message sent successfully!");
           form.current.reset();
         },
-        (error) => {
+        () => {
           alert("Failed to send message. Please try again.");
         }
       );
